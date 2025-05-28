@@ -1,2 +1,2 @@
 # tomcat-script
-tomcat, java
+tomcat setup & configaration
