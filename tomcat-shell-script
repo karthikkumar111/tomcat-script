@@ -7,3 +7,7 @@ tar -zxvf *tar.gz
 mv apache-tomcat-9.0.105 apache
 cd apache/webapps/manager/META-INF/
 vim context.xml
+:21,22d
+:wq
+cd ../../../conf
+vim tomcat-users.xml
