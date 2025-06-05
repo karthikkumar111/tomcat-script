@@ -22,3 +22,4 @@ vim tomcat-users.xml
 cd ..
 cd bin
 ./startup.sh
+#copy public ip address and paste on google chrome to connect tomcat with addition of :8080 port
