@@ -3,6 +3,7 @@ sudo amazon-linux-extras enable corretto11
 sudo yum install java-11-amazon-corretto -y
 wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.105/bin/apache-tomcat-9.0.105.tar.gz
 tar -zxvf *tar.gz
-#for changing the name of the file
+#for changing the name of the file(apache)
 mv apache-tomcat-9.0.105 apache
-cd apache/webapps/manager/ META-INF/vim context.xml
+cd apache/webapps/manager/META-INF/
+vim context.xml
