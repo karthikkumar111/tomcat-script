@@ -11,10 +11,9 @@ vim context.xml
 :wq
 cd ../../../conf
 vim tomcat-users.xml
-
-
-
 #add/paste this lines
+:50,51,52yy
+:55p
 <role rolename="manager-gui"/>
  <role rolename="manager-script"/>
   <user username="tomcat" password="123456" roles="manager-gui, manager-script"/>
